@@ -149,4 +149,5 @@ resource "aws_ec2_tag" "alpha-spot-tag" {
   key         = "Name"
   value       = "alpha-spot-instance"
 }
+comment
 */
