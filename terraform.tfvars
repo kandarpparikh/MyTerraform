@@ -1,0 +1,8 @@
+vpc-cidr-blocks      = "10.0.0.0/16"
+subnet-cidr-block    = "10.0.10.0/24"
+avail_zone           = "ap-south-1a"
+env_prefix           = "alpha"
+myip                 = "0.0.0.0/0"
+instance-type        = "t2.micro"
+key-name             = "Terraform-key"
+private-key-location = "mykey"
