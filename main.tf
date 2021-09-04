@@ -41,6 +41,6 @@ module "webserver-module" {
   instance-type        = var.instance-type
   key-name             = var.key-name
   avail-zone           = var.avail_zone
-  private-key-location = mykey
+  private-key-location = var.private-key-location
   subnet-id            = module.subnet-module.subnet-id.id
 }

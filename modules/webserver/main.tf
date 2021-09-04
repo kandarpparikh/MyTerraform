@@ -21,7 +21,7 @@ data "aws_ami" "alpha-ami" {
 resource "aws_security_group" "alpha-sg" {
   name        = "alpha-sg"
   description = "Allow inbound traffic on port 22 and 8080"
-  vpc_id      = var.vpc_id
+  vpc_id      = var.vpc-id
   ingress = [{
     from_port        = 22
     to_port          = 22
